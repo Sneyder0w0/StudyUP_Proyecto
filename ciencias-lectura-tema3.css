@@ -1,0 +1,204 @@
+.frame-child133 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+}
+.icon-arrow-left17 {
+  position: absolute;
+  top: 176.1px;
+  left: 113px;
+  width: 60px;
+  height: 25.3px;
+  z-index: 1;
+}
+.rectangle-parent106 {
+  position: absolute;
+  top: -138px;
+  left: 0;
+  width: 1512px;
+  height: 564px;
+}
+.leyes-de-newton2 {
+  margin: 0;
+  position: absolute;
+  top: 121px;
+  left: 354px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 803px;
+  z-index: 1;
+}
+.navigation12 {
+  align-self: stretch;
+  height: 426px;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-59xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.laws-description-child {
+  width: 1285px;
+  height: 1060px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.leyes-de-newton3,
+.text {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.leyes-de-newton3 {
+  margin: 0;
+  width: 854px;
+  font-size: inherit;
+  font-family: inherit;
+  flex-shrink: 0;
+  max-width: calc(100% - 20px);
+}
+.text {
+  width: 0;
+}
+.law-explanation,
+.law-statement {
+  display: flex;
+  align-items: flex-start;
+}
+.law-explanation {
+  width: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray-100);
+}
+.law-statement {
+  width: 1031px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.las-leyes-de1 {
+  margin: 0;
+}
+.primera-ley-ley {
+  margin-bottom: 0;
+}
+.primera-ley-ley-de-la-inercia {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-28xl);
+}
+.las-leyes-de-container {
+  flex: 1;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.laws-description,
+.principles {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.principles {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+}
+.laws-description {
+  width: 1285px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-xs) var(--padding-7xl) var(--padding-8xl);
+  gap: var(--gap-25xl);
+}
+.ciencias-lectura-tema-5,
+.content9,
+.laws-description {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.content9 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+}
+.ciencias-lectura-tema-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-68xl);
+  gap: var(--gap-34xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .leyes-de-newton2 {
+    font-size: var(--font-size-43xl);
+  }
+  .leyes-de-newton3 {
+    font-size: var(--font-size-21xl);
+  }
+  .text {
+    font-size: var(--font-size-13xl);
+  }
+  .las-leyes-de-container {
+    font-size: var(--font-size-9xl);
+  }
+  .ciencias-lectura-tema-5 {
+    gap: var(--gap-7xl);
+  }
+}
+@media screen and (max-width: 675px) {
+  .laws-description {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .leyes-de-newton2 {
+    font-size: var(--font-size-28xl);
+  }
+  .leyes-de-newton3 {
+    font-size: var(--font-size-11xl);
+  }
+  .text {
+    font-size: var(--font-size-5xl);
+  }
+  .las-leyes-de-container {
+    font-size: var(--font-size-2xl);
+  }
+}

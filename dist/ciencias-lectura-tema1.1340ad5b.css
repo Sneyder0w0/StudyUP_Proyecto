@@ -1,0 +1,185 @@
+.background1 {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-arrow-left19 {
+  z-index: 1;
+  width: 60px;
+  height: 21px;
+  position: absolute;
+  top: 169.5px;
+  left: 113px;
+}
+
+.navigation14 {
+  width: 1512px;
+  height: 564px;
+  position: absolute;
+  top: -138px;
+  left: 0;
+}
+
+.gentica-y-herencia1 {
+  font-size: inherit;
+  z-index: 1;
+  width: 803px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 121px;
+  left: 354px;
+}
+
+.header8 {
+  text-align: left;
+  font-size: var(--font-size-59xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  align-self: stretch;
+  height: 426px;
+  position: relative;
+}
+
+.frame-child135 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 1285px;
+  max-width: 100%;
+  height: 833px;
+  display: none;
+  position: relative;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.gentica-y-herencia2, .la-gentica-estudia {
+  z-index: 1;
+  max-width: 100%;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.gentica-y-herencia2 {
+  font-size: inherit;
+  width: 854px;
+  margin: 0;
+  font-family: inherit;
+}
+
+.la-gentica-estudia {
+  flex: 1;
+}
+
+.description-container {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.rectangle-parent108 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-7xl) var(--padding-46xl);
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  flex-direction: column;
+  width: 1285px;
+  max-width: 100%;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.ciencias-lectura-tema-4, .content11, .rectangle-parent108 {
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex;
+}
+
+.content11 {
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.ciencias-lectura-tema-4 {
+  background-color: var(--color-whitesmoke);
+  padding: 0 0 var(--padding-13xl);
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+  letter-spacing: normal;
+  flex-direction: column;
+  width: 100%;
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 825px) {
+  .gentica-y-herencia1 {
+    font-size: var(--font-size-43xl);
+  }
+
+  .gentica-y-herencia2 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .la-gentica-estudia {
+    font-size: var(--font-size-9xl);
+  }
+
+  .rectangle-parent108 {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+
+  .ciencias-lectura-tema-4 {
+    gap: var(--gap-7xl);
+  }
+}
+
+@media screen and (width <= 675px) {
+  .rectangle-parent108 {
+    gap: var(--gap-3xl);
+  }
+}
+
+@media screen and (width <= 450px) {
+  .gentica-y-herencia1 {
+    font-size: var(--font-size-28xl);
+  }
+
+  .gentica-y-herencia2 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .la-gentica-estudia {
+    font-size: var(--font-size-2xl);
+  }
+
+  .rectangle-parent108 {
+    padding-bottom: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+/*# sourceMappingURL=ciencias-lectura-tema1.1340ad5b.css.map */

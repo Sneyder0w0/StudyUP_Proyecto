@@ -1,0 +1,355 @@
+.ciencias1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.ciencias-wrapper {
+  width: 1286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-38xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.topics-child {
+  height: 78px;
+  width: 1285px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.vector-icon5 {
+  width: 48px;
+  height: 52px;
+  position: relative;
+  z-index: 2;
+}
+.vector-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.buscar-temas4 {
+  position: relative;
+  font-weight: 500;
+  white-space: nowrap;
+  z-index: 2;
+}
+.topics {
+  width: 1285px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-41xl);
+  box-sizing: border-box;
+  gap: var(--gap-37xl);
+  max-width: 100%;
+  z-index: 1;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray-100);
+}
+.controls-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+}
+.icon-arrow-left7 {
+  position: absolute;
+  top: 214px;
+  left: 109px;
+  width: 60px;
+  height: 70.3px;
+  z-index: 1;
+}
+.controls {
+  width: 100%;
+  height: 498px;
+  position: absolute;
+  margin: 0 !important;
+  top: -138px;
+  right: 0;
+  left: 0;
+}
+.navigation5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-xl) var(--padding-45xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-24xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-66xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.subject-items-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 1289px;
+  height: 110px;
+  cursor: pointer;
+}
+.minerales-y-rocas5 {
+  position: absolute;
+  top: 29px;
+  left: 82px;
+  font-weight: 500;
+  z-index: 1;
+}
+.subject-items {
+  align-self: stretch;
+  height: 113px;
+  position: relative;
+}
+.sistema-solar {
+  position: absolute;
+  top: 25px;
+  left: 82px;
+  font-weight: 500;
+  z-index: 1;
+}
+.science-categories {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.estructura-y-funcin {
+  position: absolute;
+  top: 25px;
+  left: 78px;
+  font-weight: 500;
+  z-index: 1;
+}
+.science-categories-parent {
+  height: 110px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.subject-rows {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs) var(--padding-10xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child49 {
+  height: 110px;
+  width: 1289px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.tabla-peridica-y {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangle-parent41,
+.subject-rows1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent41 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-63xl);
+}
+.subject-rows1 {
+  align-self: stretch;
+  padding: 0 0 var(--padding-10xs);
+}
+.sistemas-del-cuerpo {
+  margin: 0;
+}
+.sistemas-del-cuerpo-container {
+  width: 605px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.rectangle-parent42 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-59xl) var(--padding-3xl);
+  max-width: 100%;
+}
+.rectangle-parent42,
+.rectangle-parent44,
+.subject-rows2 {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.subject-rows2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xs);
+  max-width: 100%;
+}
+.rectangle-parent44 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-63xl);
+}
+.rectangle-parent44,
+.subject-grid,
+.subject-rows5 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.subject-rows5 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+  box-sizing: border-box;
+}
+.subject-grid {
+  width: 1297px;
+  flex-direction: column;
+  gap: var(--gap-2xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.ciencias,
+.subject-grid-wrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.subject-grid-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  max-width: 100%;
+}
+.ciencias {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-19xl);
+  gap: var(--gap-24xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1000px) {
+  .rectangle-parent41 {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 975px) {
+  .estructura-y-funcin,
+  .minerales-y-rocas5,
+  .sistema-solar,
+  .sistemas-del-cuerpo-container,
+  .tabla-peridica-y {
+    font-size: var(--font-size-13xl);
+  }
+  .rectangle-parent42 {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+  .ciencias {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .topics {
+    gap: var(--gap-9xl);
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .navigation5 {
+    gap: var(--gap-2xl);
+  }
+  .rectangle-parent44 {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-22xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ciencias-wrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .navigation5 {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .estructura-y-funcin,
+  .minerales-y-rocas5,
+  .sistema-solar,
+  .sistemas-del-cuerpo-container,
+  .tabla-peridica-y {
+    font-size: var(--font-size-5xl);
+  }
+}

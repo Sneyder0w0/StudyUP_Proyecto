@@ -1,0 +1,218 @@
+.content-item {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content8 {
+  width: 1512px;
+  height: 498px;
+  position: absolute;
+  top: -138px;
+  left: 0;
+}
+
+.icon-arrow-left16 {
+  z-index: 1;
+  width: 60px;
+  height: 62.3px;
+  position: relative;
+}
+
+.navigation11 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 17.7px 0 0;
+  display: flex;
+}
+
+.sistema-solar2 {
+  font-size: inherit;
+  z-index: 1;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.header6 {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  width: 935px;
+  max-width: 100%;
+  display: flex;
+  position: absolute;
+  top: 76px;
+  left: 113px;
+}
+
+.layout2 {
+  text-align: left;
+  font-size: var(--font-size-66xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  align-self: stretch;
+  height: 360px;
+}
+
+.layout2, .qu-es-el, .question-child {
+  max-width: 100%;
+  position: relative;
+}
+
+.question-child {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 1285px;
+  height: 860px;
+  display: none;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.qu-es-el {
+  font-size: inherit;
+  z-index: 1;
+  width: 745px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.el-sistema-solar {
+  margin: 0;
+}
+
+.el-sistema-solar-container {
+  z-index: 1;
+  flex: 1;
+  max-width: 100%;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.answer, .question {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.answer {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  flex-direction: row;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.question {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xs) var(--padding-7xl) var(--padding-20xl);
+  gap: var(--gap-25xl);
+  flex-direction: column;
+  width: 1285px;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.body1, .ciencias-lectura-tema-2, .question {
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex;
+}
+
+.body1 {
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.ciencias-lectura-tema-2 {
+  background-color: var(--color-whitesmoke);
+  justify-content: flex-start;
+  gap: var(--gap-39xl);
+  letter-spacing: normal;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0 157px;
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 825px) {
+  .sistema-solar2 {
+    font-size: var(--font-size-23xl);
+  }
+
+  .qu-es-el {
+    font-size: var(--font-size-21xl);
+  }
+
+  .el-sistema-solar-container {
+    font-size: var(--font-size-9xl);
+  }
+
+  .question {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+
+  .ciencias-lectura-tema-2 {
+    gap: var(--gap-10xl);
+  }
+}
+
+@media screen and (width <= 675px) {
+  .header6 {
+    flex-wrap: wrap;
+  }
+
+  .layout2 {
+    height: auto;
+    min-height: 360px;
+  }
+
+  .question {
+    gap: var(--gap-3xl);
+  }
+}
+
+@media screen and (width <= 450px) {
+  .sistema-solar2 {
+    font-size: var(--font-size-6xl);
+  }
+
+  .qu-es-el {
+    font-size: var(--font-size-11xl);
+  }
+
+  .el-sistema-solar-container {
+    font-size: var(--font-size-2xl);
+  }
+
+  .question {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+/*# sourceMappingURL=ciencias-lectura-tema2.728394f3.css.map */

@@ -1,0 +1,372 @@
+.sociales1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 1;
+}
+.sociales-wrapper {
+  width: 1286px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-4xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child75 {
+  height: 78px;
+  width: 1285px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.vector-icon11 {
+  width: 48px;
+  height: 50px;
+  position: relative;
+  z-index: 2;
+}
+.vector-wrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.buscar-temas8 {
+  width: 279px;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-21xl);
+  background-color: transparent;
+  height: 60px;
+  position: relative;
+  color: var(--color-lightslategray-100);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0;
+  z-index: 2;
+}
+.rectangle-parent59 {
+  width: 1285px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-33xl);
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.navigation-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+}
+.icon-arrow-left11 {
+  position: absolute;
+  top: 214px;
+  left: 113px;
+  width: 60px;
+  height: 70.3px;
+  cursor: pointer;
+  z-index: 1;
+}
+.navigation8 {
+  width: 100%;
+  height: 498px;
+  position: absolute;
+  margin: 0 !important;
+  top: -138px;
+  right: 0;
+  left: 0;
+}
+.layout,
+.topics-grid-child {
+  position: relative;
+  max-width: 100%;
+}
+.layout {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-28xl) var(--padding-xl) var(--padding-45xl);
+  box-sizing: border-box;
+  gap: var(--gap-24xl);
+  text-align: left;
+  font-size: var(--font-size-66xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.topics-grid-child {
+  height: 110px;
+  width: 1289px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.civilizaciones-antiguas-mesop {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+  z-index: 1;
+}
+.topics-grid {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-45xl) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.descubrimientos-geogrficos-y {
+  height: 60px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 1;
+}
+.topics-grid1 {
+  align-self: stretch;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-44xl);
+}
+.rectangle-parent60,
+.topics-grid1,
+.topics-grid2,
+.topics-grid3,
+.topics-grid4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent60 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-41xl);
+}
+.topics-grid2,
+.topics-grid3,
+.topics-grid4 {
+  align-self: stretch;
+  padding: 0 var(--padding-9xs);
+}
+.topics-grid3,
+.topics-grid4 {
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-45xl);
+}
+.topics-grid4 {
+  padding: var(--padding-3xl) var(--padding-45xl) var(--padding-9xl);
+}
+.globalizacin-y-sus {
+  margin: 0;
+}
+.globalizacin-y-sus-container {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.rectangle-parent61,
+.rectangle-parent62 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-parent61 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-41xl) var(--padding-3xl);
+}
+.rectangle-parent62 {
+  padding: var(--padding-6xl) var(--padding-37xl);
+}
+.rectangle-parent62,
+.rectangle-parent63,
+.topics-grid-parent,
+.topics-grid8 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent63 {
+  flex: 1;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  flex-direction: row;
+  padding: var(--padding-9xl) var(--padding-37xl) var(--padding-3xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.topics-grid-parent,
+.topics-grid8 {
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.topics-grid8 {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-white);
+  align-self: stretch;
+  height: 110px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-41xl) var(--padding-lgi);
+  box-sizing: border-box;
+  font-weight: 500;
+  min-width: 250px;
+}
+.topics-grid-parent {
+  width: 1297px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  text-align: left;
+}
+.sociales,
+.sociales-inner {
+  display: flex;
+  box-sizing: border-box;
+}
+.sociales-inner {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-4xl);
+  max-width: 100%;
+}
+.sociales {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-whitesmoke);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-16xl);
+  gap: var(--gap-24xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .topics-grid {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .civilizaciones-antiguas-mesop,
+  .descubrimientos-geogrficos-y {
+    font-size: var(--font-size-13xl);
+  }
+  .topics-grid1 {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-12xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent60,
+  .topics-grid3 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .topics-grid3 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+  }
+  .globalizacin-y-sus-container {
+    font-size: var(--font-size-13xl);
+  }
+  .rectangle-parent62 {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+    box-sizing: border-box;
+  }
+  .sociales {
+    gap: var(--gap-2xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent59 {
+    gap: var(--gap-13xl);
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .layout {
+    gap: var(--gap-2xl);
+  }
+  .topics-grid4 {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent61,
+  .rectangle-parent63 {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .rectangle-parent63 {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .layout {
+    padding-top: var(--padding-12xl);
+    padding-bottom: var(--padding-23xl);
+    box-sizing: border-box;
+  }
+  .civilizaciones-antiguas-mesop,
+  .descubrimientos-geogrficos-y,
+  .globalizacin-y-sus-container {
+    font-size: var(--font-size-5xl);
+  }
+}

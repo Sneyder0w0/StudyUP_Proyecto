@@ -1,0 +1,304 @@
+.content-placeholder {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.icon-arrow-left21 {
+  z-index: 1;
+  width: 60px;
+  height: 44.6px;
+  position: absolute;
+  top: 205.1px;
+  left: 113px;
+}
+
+.content-placeholder-parent {
+  flex: 1;
+  max-width: 100%;
+  height: 564px;
+  position: relative;
+}
+
+.frame-wrapper40 {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.estructura-y-funcin2 {
+  font-size: inherit;
+  white-space: pre-wrap;
+  z-index: 1;
+  width: 1310px;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  display: inline-block;
+  position: absolute;
+  top: 58px;
+  left: 267px;
+}
+
+.frame-parent46 {
+  text-align: left;
+  font-size: var(--font-size-59xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  align-self: stretch;
+  max-width: 100%;
+  height: 426px;
+  position: relative;
+}
+
+.cell-structure-block-child {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 1285px;
+  max-width: 100%;
+  height: 833px;
+  display: none;
+  position: relative;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.estructura-y-funcin3, .las-clulas-unidades {
+  z-index: 1;
+  max-width: 100%;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.estructura-y-funcin3 {
+  font-size: inherit;
+  width: 854px;
+  margin: 0;
+  font-family: inherit;
+}
+
+.las-clulas-unidades {
+  flex: 1;
+}
+
+.cell-basics {
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.cell-components-child, .cell-structure-block {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  max-width: 100%;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.cell-structure-block {
+  padding: var(--padding-xs) var(--padding-7xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-25xl);
+  flex-direction: column;
+  display: flex;
+}
+
+.cell-components-child {
+  width: 1285px;
+  height: 684px;
+  display: none;
+  position: relative;
+}
+
+.cell-components, .cell-structure-block-parent {
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.cell-components {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-6xl) var(--padding-31xl) var(--padding-4xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  flex-direction: row;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.cell-structure-block-parent {
+  flex-direction: column;
+  gap: 76px;
+}
+
+.cell-functions-child {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 1285px;
+  max-width: 100%;
+  height: 618px;
+  display: none;
+  position: relative;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.las-funciones-celulares {
+  z-index: 1;
+  flex: 1;
+  max-width: 100%;
+  height: 535px;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.cell-functions, .content-container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.cell-functions {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: 0 var(--padding-31xl) 83px;
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  flex-direction: row;
+  align-self: stretch;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.content-container {
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+  flex-direction: column;
+  gap: 101px;
+  width: 1285px;
+}
+
+.ciencias-lectura-tema-3, .main-content1 {
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex;
+}
+
+.main-content1 {
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  flex-direction: row;
+  justify-content: center;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.ciencias-lectura-tema-3 {
+  background-color: var(--color-whitesmoke);
+  justify-content: flex-start;
+  gap: var(--gap-34xl);
+  letter-spacing: normal;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 0 68px;
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 1200px) {
+  .cell-components, .cell-functions {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (width <= 1050px) {
+  .estructura-y-funcin3 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .las-clulas-unidades, .las-funciones-celulares {
+    font-size: var(--font-size-9xl);
+  }
+}
+
+@media screen and (width <= 750px) {
+  .cell-structure-block {
+    gap: var(--gap-3xl);
+  }
+
+  .cell-components {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .cell-structure-block-parent {
+    gap: var(--gap-19xl);
+  }
+
+  .cell-functions {
+    padding-bottom: var(--padding-35xl);
+    box-sizing: border-box;
+  }
+
+  .content-container {
+    gap: var(--gap-31xl);
+  }
+
+  .ciencias-lectura-tema-3 {
+    gap: var(--gap-7xl);
+  }
+}
+
+@media screen and (width <= 450px) {
+  .estructura-y-funcin3 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .las-clulas-unidades {
+    font-size: var(--font-size-2xl);
+  }
+
+  .cell-structure-block-parent {
+    gap: var(--gap-lgi);
+  }
+
+  .las-funciones-celulares {
+    font-size: var(--font-size-2xl);
+  }
+
+  .content-container {
+    gap: var(--gap-6xl);
+  }
+}
+/*# sourceMappingURL=ciencias-lectura-tema.9ace29d8.css.map */

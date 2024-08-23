@@ -1,0 +1,455 @@
+.content-inner, .content10 {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.content-inner {
+  border-radius: var(--br-81xl);
+  background-color: var(--color-cadetblue-400);
+  height: 100%;
+  top: 0;
+}
+
+.content10 {
+  height: 498px;
+  top: -138px;
+  right: 0;
+  margin: 0 !important;
+}
+
+.icon-arrow-left18 {
+  cursor: pointer;
+  z-index: 1;
+  width: 60px;
+  height: 55.2px;
+  position: relative;
+}
+
+.navigation13 {
+  padding: var(--padding-20xl) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.sistema-solar3 {
+  font-size: inherit;
+  z-index: 1;
+  max-width: 100%;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+}
+
+.header7 {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  width: 935px;
+  max-width: 100%;
+  display: flex;
+}
+
+.search-inner {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 1285px;
+  max-width: 100%;
+  height: 78px;
+  display: none;
+  position: relative;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.search-input-icon1 {
+  z-index: 2;
+  width: 48px;
+  height: 50px;
+  position: relative;
+}
+
+.search-icon2 {
+  padding: var(--padding-8xs) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.buscar-temas11 {
+  z-index: 2;
+  font-weight: 500;
+  position: relative;
+}
+
+.main2, .search2 {
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.search2 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-4xs) var(--padding-23xl);
+  gap: var(--gap-8xl);
+  z-index: 1;
+  font-size: var(--font-size-21xl);
+  color: var(--color-lightslategray-100);
+  flex-direction: row;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.main2 {
+  padding: var(--padding-25xl) var(--padding-94xl) var(--padding-45xl);
+  gap: var(--gap-27xl);
+  text-align: left;
+  font-size: var(--font-size-66xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+  flex-direction: column;
+  position: relative;
+}
+
+.grid-item-icon {
+  border-radius: var(--br-6xl);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 1236px;
+}
+
+.grid-item-icon1 {
+  object-fit: cover;
+  left: 2060px;
+}
+
+.grid-item-icon1, .grid-item-icon2, .image-grid-item {
+  border-radius: var(--br-6xl);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.grid-item-icon2 {
+  object-fit: cover;
+  left: 1648px;
+}
+
+.image-grid-item {
+  background-color: var(--color-white);
+  display: none;
+  left: 0;
+}
+
+.grid-item-icon3, .grid-item-icon4, .grid-item-icon5, .grid-item-icon6, .grid-item-icon7, .image-5-icon2 {
+  border-radius: var(--br-6xl);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 824px;
+}
+
+.grid-item-icon4, .grid-item-icon5, .grid-item-icon6, .grid-item-icon7, .image-5-icon2 {
+  left: 412px;
+}
+
+.grid-item-icon5, .grid-item-icon6, .grid-item-icon7, .image-5-icon2 {
+  left: 2472px;
+}
+
+.grid-item-icon6, .grid-item-icon7, .image-5-icon2 {
+  left: 3296px;
+}
+
+.grid-item-icon7, .image-5-icon2 {
+  left: 2884px;
+}
+
+.image-5-icon2 {
+  z-index: 1;
+  left: 0;
+}
+
+.vector-icon13 {
+  z-index: 2;
+  width: 46.24%;
+  max-width: 100%;
+  height: 38.37%;
+  max-height: 100%;
+  position: absolute;
+  inset: 34.24% 26.88% 27.39%;
+  overflow: hidden;
+}
+
+.image-grid1 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  flex: 1;
+  max-width: 100%;
+  height: 406px;
+  position: relative;
+  overflow-x: auto;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.gallery1 {
+  padding: 0 var(--padding-31xl) 74px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 446px;
+  max-width: 100%;
+  display: flex;
+}
+
+.expand-button-icon, .image-icon {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image-icon {
+  z-index: 1;
+}
+
+.expand-button-icon {
+  border-radius: var(--br-6xl);
+}
+
+.vector-icon14 {
+  z-index: 2;
+  width: 160px;
+  height: 155.8px;
+  position: absolute;
+  top: 75px;
+  left: 122px;
+}
+
+.expand-icon {
+  width: 403px;
+  height: 306px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.frame-child134, .image-parent {
+  max-width: 100%;
+  position: relative;
+}
+
+.image-parent {
+  cursor: pointer;
+  width: 403px;
+  min-width: 403px;
+  height: 363px;
+}
+
+.frame-child134 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  width: 904px;
+  height: 306px;
+  display: none;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.el-sistema-solar2, .la-importancia-del1 {
+  z-index: 1;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.el-sistema-solar2 {
+  font-size: inherit;
+  margin: 0;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.la-importancia-del1 {
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  width: 758px;
+}
+
+.description-content4, .rectangle-parent107 {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.rectangle-parent107 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-white);
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-14xl) var(--padding-13xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  flex-direction: column;
+  width: 904px;
+  min-width: 904px;
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.description-content4 {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex-direction: row;
+  flex: 1;
+}
+
+.ciencias-tema-2-video, .description {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.description {
+  padding: 0 var(--padding-31xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-steelblue);
+  font-family: var(--font-poppins);
+  flex-direction: row;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.ciencias-tema-2-video {
+  background-color: var(--color-whitesmoke);
+  letter-spacing: normal;
+  flex-direction: column;
+  gap: 34px;
+  width: 100%;
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (width <= 1425px) {
+  .image-parent, .rectangle-parent107 {
+    flex: 1;
+  }
+
+  .description-content4 {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (width <= 1200px) {
+  .rectangle-parent107 {
+    min-width: 100%;
+  }
+}
+
+@media screen and (width <= 825px) {
+  .sistema-solar3 {
+    font-size: var(--font-size-23xl);
+  }
+
+  .header7 {
+    flex-wrap: wrap;
+  }
+
+  .buscar-temas11 {
+    font-size: var(--font-size-13xl);
+  }
+
+  .search2 {
+    flex-wrap: wrap;
+  }
+
+  .gallery1, .main2 {
+    box-sizing: border-box;
+  }
+
+  .main2 {
+    gap: var(--gap-4xl);
+    padding-left: var(--padding-37xl);
+    padding-right: var(--padding-37xl);
+  }
+
+  .gallery1 {
+    padding-bottom: var(--padding-29xl);
+  }
+
+  .image-parent {
+    min-width: 100%;
+  }
+
+  .el-sistema-solar2 {
+    font-size: var(--font-size-21xl);
+  }
+
+  .la-importancia-del1 {
+    font-size: var(--font-size-9xl);
+  }
+
+  .description {
+    padding-left: var(--padding-6xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+
+  .ciencias-tema-2-video {
+    gap: var(--gap-mid);
+  }
+}
+
+@media screen and (width <= 450px) {
+  .sistema-solar3 {
+    font-size: var(--font-size-6xl);
+  }
+
+  .buscar-temas11 {
+    font-size: var(--font-size-5xl);
+  }
+
+  .search2 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+
+  .gallery1, .main2, .search2 {
+    box-sizing: border-box;
+  }
+
+  .main2 {
+    padding: var(--padding-10xl) var(--padding-xl) var(--padding-23xl);
+  }
+
+  .gallery1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+  }
+
+  .el-sistema-solar2 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .la-importancia-del1 {
+    font-size: var(--font-size-2xl);
+  }
+}
+/*# sourceMappingURL=ciencias-tema2-video.8cc0bb3b.css.map */
