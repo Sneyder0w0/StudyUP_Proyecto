@@ -1,4 +1,4 @@
-.study2 {
+.rectangle-wrapper1 .study2 {
   font-size: inherit;
   text-shadow: 0 4px #00000040;
   flex-shrink: 0;
@@ -97,7 +97,7 @@
 }
 
 .frame-parent15, .frame-wrapper11, .rectangle-parent85 {
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
   display: flex;
 }
@@ -123,12 +123,12 @@
 }
 
 .frame-wrapper10 {
-  padding: 0 var(--padding-29xl) var(--padding-xl);
-  box-sizing: border-box;
+  padding: 0 var(--padding-20xl) var(--padding-xl);
+  box-sizing: content-box;
   flex-direction: row;
   justify-content: flex-end;
-  align-self: stretch;
-  align-items: flex-start;
+  align-self: center;
+  align-items: center;
   max-width: 100%;
   display: flex;
 }
@@ -285,8 +285,8 @@
 }
 
 .frame-parent18, .frame-wrapper12 {
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
   max-width: 100%;
   display: flex;
 }
@@ -298,10 +298,10 @@
 }
 
 .frame-wrapper12 {
-  padding: 0 var(--padding-9xl) 0 var(--padding-xl);
-  box-sizing: border-box;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing: content-box;
   justify-content: center;
-  align-self: stretch;
+  align-self: center;
 }
 
 .frame-child106 {
@@ -356,12 +356,12 @@
 .rectangle-parent89 {
   border-radius: var(--br-6xl);
   background-color: var(--color-gray-300);
-  width: 443px;
-  height: 316px;
+  width: 310px;
+  height: 310px;
   position: absolute;
   top: 0;
   left: 0;
-  box-shadow: 0 4px 4px #00000040;
+  box-shadow: 0 10px 10px #00000040;
 }
 
 .frame-child108, .rectangle-wrapper1 {
@@ -378,11 +378,11 @@
 }
 
 .rectangle-wrapper1 {
-  z-index: 2;
-  width: 320px;
+  z-index: 1;
+  width: 290px;
   height: 48.2px;
   top: 288.6px;
-  left: 62px;
+  left: 40px;
   box-shadow: 0 4px 4px #00000040;
 }
 
@@ -470,11 +470,11 @@
   font-size: var(--font-size-21xl);
   flex-direction: row;
   justify-content: flex-end;
-  align-self: stretch;
+  align-self: center;
 }
 
 .frame-wrapper15, .frame-wrapper16, .materias-parent {
-  align-items: flex-start;
+  align-items: stretch;
   max-width: 100%;
   display: flex;
 }
@@ -483,7 +483,7 @@
   justify-content: flex-start;
   gap: var(--gap-12xl);
   flex-direction: column;
-  width: 1154px;
+  width: 1004px;
 }
 
 .frame-wrapper15 {
@@ -673,8 +673,8 @@
 .frame-wrapper18 {
   cursor: pointer;
   justify-content: flex-start;
-  width: 443px;
-  height: 307.4px;
+  width: 400px;
+  height: 300.4px;
 }
 
 .pagina-de-inicio-child, .pagina-de-inicio-inner1 {
@@ -763,7 +763,7 @@
   z-index: 2;
   flex: 1;
   max-width: 100%;
-  font-weight: 500;
+  font-weight: 50;
   display: inline-block;
   position: relative;
 }

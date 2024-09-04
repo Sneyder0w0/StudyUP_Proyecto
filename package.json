@@ -2,6 +2,7 @@
   "name": "untitled",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "scripts": {
     "start": "parcel ./*.html ",
     "build": "parcel build ./*.html  --dist-dir ./build"

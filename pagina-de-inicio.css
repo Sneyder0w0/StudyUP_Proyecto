@@ -1,3 +1,4 @@
+.ciencias-1-icon
 .study2 {
   margin: 0;
   height: 125px;
@@ -20,6 +21,7 @@
 }
 .up2 {
   text-decoration: none;
+  top: 110px;
   width: 173px;
   position: relative;
   font-size: var(--font-size-81xl);
@@ -40,8 +42,10 @@
   max-width: 100%;
 }
 .icon-menu {
-  width: 57px;
-  height: 59.6px;
+  width: 40px;
+  height: 40px;
+  left: -15px;
+  top: -10px;
   position: relative;
 }
 .icon-menu-wrapper {
@@ -90,7 +94,7 @@
 .frame-wrapper11,
 .rectangle-parent85 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
 }
 .frame-wrapper11 {
@@ -112,13 +116,13 @@
   font-family: var(--font-hind-jalandhar);
 }
 .frame-wrapper10 {
-  align-self: stretch;
+  align-self: center;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-end;
-  padding: 0 var(--padding-29xl) var(--padding-xl);
-  box-sizing: border-box;
+  padding: 0 var(--padding-20xl) var(--padding-xl);
+  box-sizing:content-box;
   max-width: 100%;
 }
 .frame-child103 {
@@ -261,8 +265,8 @@
 .frame-parent18,
 .frame-wrapper12 {
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  flex-direction: row-reverse;
+  align-items: center;
   max-width: 100%;
 }
 .frame-parent18 {
@@ -271,10 +275,10 @@
   gap: var(--gap-xl);
 }
 .frame-wrapper12 {
-  align-self: stretch;
+  align-self:center;
   justify-content: center;
-  padding: 0 var(--padding-9xl) 0 var(--padding-xl);
-  box-sizing: border-box;
+  padding: 0 var(--padding-7xl) 0 var(--padding-xl);
+  box-sizing:content-box;
 }
 .frame-child106 {
   flex: 1;
@@ -314,21 +318,22 @@
 .matematicas-1-icon {
   position: absolute;
   top: 26px;
-  left: 88px;
+  left: 25px;
   width: 267px;
   height: 263px;
   object-fit: cover;
   z-index: 1;
 }
 .rectangle-parent89 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  position:absolute;
+  top: 20px;
+  left: 75px;
+  right: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-6xl);
   background-color: var(--color-gray-300);
-  width: 443px;
-  height: 316px;
+  width: 310px;
+  height: 310px;
 }
 .frame-child108,
 .rectangle-wrapper1 {
@@ -346,31 +351,30 @@
   display: none;
 }
 .rectangle-wrapper1 {
-  top: 288.6px;
-  left: 62px;
+  top: 350.50px;
+  left: 80px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  width: 320px;
-  height: 48.2px;
-  z-index: 2;
+  width: 300px;
+  height: 44.2px;
+  z-index: 1;
 }
 .frame-parent24,
 .matemtica {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  top: 0px;
+  left: 1px;
+  width: 20%;
+  height: 20%;
 }
 .matemtica {
-  height: 16.33%;
-  width: 55.98%;
-  top: 83.67%;
-  left: 21.44%;
-  line-height: 55.6px;
+  height: 10%;
+  width: 10%;
+  top: 102%;
+  left: 30%;
+  right:2000px;
+  line-height: 50px;
   font-weight: 500;
-  display: inline-block;
-  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  z-index: 3;
+  z-index: 1;
 }
 .frame-parent23 {
   height: 340.5px;
@@ -381,34 +385,34 @@
 }
 .lenguaje1 {
   position: absolute;
-  top: 281.2px;
-  left: 130px;
-  line-height: 55.6px;
+  top: 102%;
+  left: 35%;
+  line-height: 50px;
   font-weight: 500;
   display: inline-block;
-  width: 184px;
-  height: 55.6px;
+  width: 10%;
+  height: 10%;
   z-index: 2;
 }
 .rectangle-wrapper2 {
   position: absolute;
-  top: 284.9px;
-  left: 65px;
+  top: 350.50px;
+  left: 80px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mini);
   background-color: var(--color-lightsteelblue);
-  width: 320px;
-  height: 48.2px;
+  width: 300px;
+  height: 44.2px;
   z-index: 1;
 }
 .libros-1-icon {
   position: absolute;
-  top: 34px;
-  left: 80px;
-  width: 304.5px;
+  top: 26px;
+  left: 25px;
+  width: 267px;
   height: 263px;
   object-fit: cover;
-  z-index: 3;
+  z-index: 1;
 }
 .lenguaje-parent {
   height: 336.8px;
@@ -420,27 +424,27 @@
 .frame-parent22 {
   width: 1045px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  flex-direction:row;
+  align-items:center;
+  justify-content:center;
   max-width: 100%;
   gap: var(--gap-xl);
 }
 .frame-wrapper16 {
-  align-self: stretch;
+  align-self: center;
   flex-direction: row;
-  justify-content: flex-end;
-  font-size: var(--font-size-21xl);
+  justify-content: center;
+  font-size: var(--font-size-25xl);
 }
 .frame-wrapper15,
 .frame-wrapper16,
 .materias-parent {
-  display: flex;
-  align-items: flex-start;
+  display:flex;
+  align-items: stretch;
   max-width: 100%;
 }
 .materias-parent {
-  width: 1154px;
+  width: 1004px;
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-12xl);
@@ -487,9 +491,9 @@
 .dia-mundial-del-libro-1-icon {
   position: absolute;
   height: 100%;
-  top: 0;
+  top: 25px;
   bottom: 0;
-  left: 38px;
+  left: 25px;
   max-height: 100%;
   width: 263px;
   object-fit: cover;
@@ -497,22 +501,32 @@
 }
 .sociales2 {
   position: absolute;
-  top: -3.6px;
-  left: 76px;
+  top: 0px;
+  left: 1px;
+  width: 20%;
+  height: 20%;
+  font-size: var(--font-size-13xl);
+        line-height: 44px;
+}
+.sociales2{
+  height: 10%;
+  width: 10%;
+  top: 0;
+  left: 30%;
+  right:2000px;
+  line-height: 50px;
   font-weight: 500;
-  display: inline-block;
-  width: 168px;
-  height: 54.1px;
-  z-index: 3;
+  z-index: 1;
 }
 .rectangle-parent92 {
   position: absolute;
-  top: 206.4px;
+  top: 330px;
   left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-mini);
   background-color: var(--color-lightsteelblue);
-  width: 320px;
-  height: 46.8px;
+  width: 300px;
+  height: 44.2px;
   z-index: 2;
 }
 .science-social-icons {
@@ -520,21 +534,19 @@
   width: 320px;
   position: relative;
 }
-.frame-wrapper17,
+.frame-wrapper17
 .rectangle-parent91 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-  max-width: 100%;
-}
-.rectangle-parent91 {
+  position: absolute;
   flex: 1;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-6xl);
   background-color: var(--color-gray-300);
-  padding: var(--padding-6xl-3) var(--padding-33xl) var(--padding-7xl-3);
-  box-sizing: border-box;
+  top: 1375px;
+  width: 310px;
+  height: 310px;
+  max-width: 100%;
+  left: 285px;
+  right: 95px;
 }
 .frame-wrapper17 {
   width: 443px;
@@ -542,26 +554,31 @@
 }
 .ciencias2 {
   height: 54.1px;
+  top: 100px;
   position: relative;
   font-weight: 500;
   display: inline-block;
-  z-index: 1;
+  z-index: 10;
+  font-size: var(--font-size-13xl);
+        line-height: 44px;
 }
 .rectangle-wrapper3 {
   position: absolute;
-  top: 208.2px;
-  left: 0;
+  top: 305px;
+  left: -8px;
   border-radius: var(--br-mini);
   background-color: var(--color-lightsteelblue);
-  width: 320px;
-  height: 46.8px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 300px;
+  height: 44.2px;
+  z-index: 5;
 }
 .ciencias-1-icon {
   position: absolute;
   height: 100%;
   top: 0;
   bottom: 0;
-  left: 31px;
+  left: 10px;
   max-height: 100%;
   width: 264.5px;
   object-fit: cover;
@@ -583,17 +600,19 @@
   position: relative;
 }
 .frame-child114 {
-  width: 100%;
-  height: 100%;
-  position: absolute;
+  width: 310px;
+  height: 310px;
+  position:absolute;
   margin: 0 !important;
-  top: 0;
-  right: 0;
+  top: -8px;
+  right: 300px;
   bottom: 0;
-  left: 0;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  left: 55px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-6xl);
   background-color: var(--color-gray-300);
+  width: 310px;
+  height: 310px;
 }
 .frame-parent27 {
   align-self: stretch;
@@ -615,10 +634,12 @@
   flex-direction: row;
   align-items: flex-start;
   max-width: 100%;
+  left: 100px;
+  right: 450;
 }
 .frame-wrapper18 {
-  height: 307.4px;
-  width: 443px;
+  height: 300.4px;
+  width: 400px;
   justify-content: flex-start;
   cursor: pointer;
 }
@@ -699,7 +720,7 @@
 .studyup-surge-como {
   flex: 1;
   position: relative;
-  font-weight: 500;
+  font-weight: 50;
   display: inline-block;
   max-width: 100%;
   z-index: 2;
@@ -871,6 +892,7 @@
 .palanca-de-mando-removebg-prev-icon {
   height: 73px;
   width: 96px;
+
   position: relative;
   object-fit: cover;
   z-index: 1;
