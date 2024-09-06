@@ -65,7 +65,7 @@
               </div>
             </div>
             <div class="frame-wrapper8">
-              <div class="rectangle-parent78">
+              <div class="rectangle-parent78" id="game">
                 <div class="sustainability-icons-child"></div>
                 <img
                   class="sustainability-icons-item"
@@ -150,6 +150,13 @@
       if (iconArrowLeft) {
         iconArrowLeft.addEventListener("click", function (e) {
           window.location.href = "./pagina-de-inicio.html";
+        });
+      }
+
+      var game = document.getElementById("game");
+      if (game) {
+        game.addEventListener("click", function (e) {
+          window.location.href = "./game.html";
         });
       }
     </script>
