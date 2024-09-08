@@ -1,6 +1,8 @@
 const header = document.querySelector(".calendar h3");
-const dates = document.querySelector(".dates");
+const dates = document.querySelector(".dateee");
 const navs = document.querySelectorAll("#prev, #next");
+
+
 
 const months = [
 'Enero', 
@@ -17,14 +19,12 @@ const months = [
 'Diciembre'
 ];
 
-const tasks = [
-    { texto: 'Tarea 1', fecha: '2024-09-05' },
-    { texto: 'Tarea 2', fecha: '2024-09-10' }
-];
+const tasks = [];
 
 let date = new Date();
 let month = date.getMonth();
 let year = date.getFullYear();
+
 
 const taskDates = new Set(
     tasks.map(task => {
@@ -33,6 +33,7 @@ const taskDates = new Set(
     })
 );
 
+//Calendar
 
 function renderCalendar() {
   const start = new Date(year, month, 1).getDay();
@@ -66,9 +67,13 @@ function renderCalendar() {
     datesHtml += `<li class="inactive">${i - end + 1}</li>`;
   }
 
-  dates.innerHTML = datesHtml;
+  dateee.innerHTML = datesHtml;
   header.textContent = `${months[month]} ${year}`;
 }
+
+
+
+//botones del calendar
 
 navs.forEach((nav) => {
   nav.addEventListener("click", (e) => {
@@ -95,45 +100,92 @@ navs.forEach((nav) => {
 renderCalendar();
 
 
+
+
+
 //task list
+function renderTaskList() {
 
 const taskList = document.getElementById('taskxd');
+taskList.innerHTML = '';
 
-function listTasks() {
+    tasks.forEach((task, index) => {
+      const li = document.createElement('li');
+      const taskText = document.createTextNode(task.text);
+      li.appendChild(taskText);
 
-    const currentDate = new Date();
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'X';
+      deleteButton.classList.add('deleteButton');
 
-    tasks.forEach(task => {
-        const taskDate = new Date(task.fecha);
-        const li = document.createElement('li');
-        const taskText = document.createTextNode(task.texto);
-        li.appendChild(taskText);
-
-        const deleteButton = document.createElement('button');
-        deleteButton.textContent = 'X';
-        
-        if (taskDate < currentDate) {
-            deleteButton.onclick = function () {
-                li.remove();
-            };
-            deleteButton.style.display = 'inline';
-        } else {
-            deleteButton.style.display = 'none'; 
-        }
-
-        li.onclick = function () {
-            li.classList.toggle('completed');
-        };
+      deleteButton.onclick = function () {
+        tasks.splice(index, 1); 
+        renderTaskList();
+        renderCalendar();
+      };
 
 
-        li.appendChild(deleteButton);
+      li.onclick = function () {
+      li.classList.toggle('completed');
+      };
 
-        taskList.appendChild(li);
 
+      li.appendChild(deleteButton);
 
+      taskList.appendChild(li);
     });
-
-    
 }
 
-listTasks();
+
+
+//press date to get a form for taskkkkkkkkkk
+
+
+document.getElementById("dateee").addEventListener("click", function(event){
+  if (event.target.tagName === 'LI' && !event.target.classList.contains('inactive')) {
+    const taskInput = document.getElementById('taskInput');
+    taskInput.style.display = 'block';
+    document.getElementById('newtaskadd').value = '';
+    selectedDate = `${year}-${month + 1}-${event.target.textContent}`;
+
+    const rect = event.target.getBoundingClientRect();
+
+    taskInput.style.top = `${rect.top + window.scrollY}px`;
+    taskInput.style.left = `${rect.right + window.scrollX + 10}px`;
+  }
+});
+
+
+
+
+
+
+
+//add tasdfjskdjfks
+
+function addnewtask(){
+
+  let nnewtask = document.getElementById('newtaskadd');
+  let takksjdflkjsalkjdflksb = nnewtask.value;
+
+  if(takksjdflkjsalkjdflksb === '') {
+    alert('Debes agregar una tarea');
+    return false;
+  } else {
+    if (!selectedDate) {
+      alert('Debes seleccionar una fecha');
+      return false;
+    }
+
+
+    tasks.push({text: takksjdflkjsalkjdflksb, fecha: selectedDate});
+    renderTaskList(); 
+    nnewtask.value = '';
+    renderCalendar(); 
+  }
+
+  taskInput.style.display = 'none';
+}
+
+
+//HELP PLEASE

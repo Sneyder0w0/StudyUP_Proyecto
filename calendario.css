@@ -54,8 +54,22 @@ body {
 h3 {
   font-weight: 600;
 }
+
+
+.taskInput {
+  display: none;
+  position: absolute;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 3px solid #3A5F7C;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  z-index: 9999;
+}
+
+
 .calendar {
-  margin:50px 200px;
+  margin:50px 200px;  
   width: 98%;
   max-width: 380px;
   padding: 1rem;
@@ -168,7 +182,7 @@ h3 {
 .completed {
   text-decoration: line-through;
 }
-button {
+.deleteButton {
   background-color: #ff4d4d;
   border: none;
   padding: 5px 10px;
@@ -176,11 +190,29 @@ button {
   cursor: pointer;
   border-radius: 4px;
 }
+
+.addtaskbutton{
+  background-color: #78B5C3;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .has-task {
   background-color: #fff; 
   border: 3px solid #78B5C3;
   border-radius: 50%;
   font-weight: bold;
+}
+
+
+.taskInput input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 

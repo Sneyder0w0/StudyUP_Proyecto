@@ -61,7 +61,14 @@
           <li>Vie</li>
           <li>Sab</li>
         </ul>
-        <ul class="dates"></ul>
+        <ul class="dates" id="dateee"></ul>
+        <div class="taskInput" id="taskInput" style="display: none;">
+          <form id="addTaskForm">
+            <label for="newtaskadd">Tarea:</label>
+            <input name="newtaskadd" type="text" id="newtaskadd">
+            <button class="addtaskbutton" type="button" onclick="addnewtask()">+</button>
+          </form>
+        </div>
       </section>
     </div>
     <div class="toDo">
