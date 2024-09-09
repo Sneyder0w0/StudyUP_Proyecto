@@ -1,3 +1,4 @@
+.ajustes
 .ajustes-child {
   height: 65.9px;
   width: 39.5px;
@@ -60,9 +61,11 @@
 }
 .customer-service,
 .notification-icon {
+  position: relative;
+  top: -1000px;
   height: 69px;
   width: 100%;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 4px 4px rgba(243, 158, 158, 0.25);
   border-radius: var(--br-xl);
   background-color: var(--color-white);
   z-index: 2;
@@ -84,14 +87,15 @@
   min-width: 250px;
 }
 .notification-icon {
-  position: absolute;
-  margin: 0 !important;
-  top: 0;
+  position: fixed;
+  margin: 0;
+  top: -4000px;
   right: 0;
   left: 0;
 }
 .notificaciones {
   align-self: stretch;
+  top: -40px;
   height: 73px;
   position: relative;
   font-weight: 500;
@@ -394,7 +398,7 @@
 }
 .study-upgrade-button {
   position: absolute;
-  top: 0;
+  top: -30px;
   left: 0;
   width: 890px;
   height: 67px;

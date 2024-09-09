@@ -1,4 +1,4 @@
-.ciencias-1-icon
+.ajustes
 .study2 {
   margin: 0;
   height: 125px;
@@ -1189,6 +1189,7 @@
   max-width: 100%;
 }
 .notifications {
+  top: -60px;
   flex-direction: row;
   padding: var(--padding-4xs) var(--padding-19xl) 0;
   box-sizing: border-box;
@@ -1270,6 +1271,7 @@
   max-width: 100%;
 }
 .language {
+  top: -67px;
   flex-direction: row;
   padding: var(--padding-2xs) var(--padding-19xl) 0;
   box-sizing: border-box;
@@ -1288,6 +1290,10 @@
   height: 67px;
   display: none;
 }
+.pato{
+  top: -70px;
+}
+
 .editar-mi-perfil {
   width: 661px;
   border: 0;
@@ -1438,7 +1444,7 @@
   font-size: var(--font-size-22xl);
   color: var(--color-gray-200);
   font-family: var(--font-poppins);
-}
+} .notifications
 .ajustes {
   width: 1177px;
   flex-direction: row;
