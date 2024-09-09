@@ -9,10 +9,10 @@
 }
 .content8 {
   position: absolute;
-  top: -138px;
+  top: -90px;
   left: 0;
-  width: 1512px;
-  height: 498px;
+  width: 1350px;
+  height: 450px;
 }
 .icon-arrow-left16 {
   width: 60px;
@@ -30,7 +30,9 @@
 .sistema-solar2 {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: 80px;
+  top: -20px;
+  right: 100px;
   font-weight: 500;
   font-family: inherit;
   display: inline-block;
@@ -89,6 +91,7 @@
   font-weight: 500;
   display: inline-block;
   max-width: 100%;
+  font-size: 25px;
   z-index: 1;
 }
 .answer,

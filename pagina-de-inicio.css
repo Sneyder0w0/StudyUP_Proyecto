@@ -73,13 +73,8 @@
   display: none;
   max-width: 100%;
 }
-.escuchar-msica-podra {
-  flex: 1;
-  position: relative;
+.slogan{
   font-weight: 500;
-  display: inline-block;
-  max-width: 100%;
-  z-index: 1;
 }
 .rectangle-parent85 {
   width: 1302px;
@@ -91,7 +86,6 @@
   box-sizing: border-box;
 }
 .frame-parent15,
-.frame-wrapper11,
 .rectangle-parent85 {
   display: flex;
   justify-content: center;
@@ -221,7 +215,7 @@
   justify-content: flex-start;
   cursor: pointer;
 }
-.chat-bot-removebg-preview-1-icon {
+.quizzescss{
   height: 80px;
   flex: 1;
   position: relative;

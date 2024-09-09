@@ -38,14 +38,14 @@
 .estructura-y-funcin2 {
   margin: 0;
   position: absolute;
-  top: 58px;
-  left: 267px;
+  top: -90px;
+  left: 80px;
   font-size: inherit;
   font-weight: 500;
   font-family: inherit;
   white-space: pre-wrap;
   display: inline-block;
-  width: 1310px;
+  width: 1150px;
   z-index: 1;
 }
 .frame-parent46 {
@@ -74,6 +74,7 @@
   font-weight: 500;
   display: inline-block;
   max-width: 100%;
+  font-size: 25px;
   z-index: 1;
 }
 .estructura-y-funcin3 {
@@ -154,7 +155,9 @@
 }
 .las-funciones-celulares {
   height: 535px;
+  top: 25px;
   flex: 1;
+  font-size: 25px;
   position: relative;
   font-weight: 500;
   display: inline-block;

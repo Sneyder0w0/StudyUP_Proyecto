@@ -34,7 +34,7 @@
               loading="lazy"
               alt=""
               src="./public/-icon-arrow-left.svg"
-              id="iconArrowLeft"
+              id="back"
             />
           </div>
           <h1 class="calendario1">Calendario</h1>
@@ -77,5 +77,14 @@
    </div>
 
     <script src="calendario.js" defer></script>
+    <script>
+      var back = document.getElementById("back");
+      if (back) {
+        back.addEventListener("click", function (e) {
+          window.location.href = "./pagina-de-inicio.html";
+        });
+      }
+
+    </script>
   </body>
 </html>
