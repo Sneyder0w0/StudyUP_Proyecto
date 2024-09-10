@@ -1,4 +1,4 @@
-.ajustes
+.politicas-de-privacidad
 .study2 {
   margin: 0;
   height: 125px;
@@ -1293,7 +1293,6 @@
 .pato{
   top: -70px;
 }
-
 .editar-mi-perfil {
   width: 661px;
   border: 0;
@@ -1410,6 +1409,7 @@
   height: 67px;
 }
 .study-upgrade {
+  top: -238px;
   align-self: stretch;
   height: 82px;
   position: relative;
