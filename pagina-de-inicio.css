@@ -1,4 +1,4 @@
-.politicas-de-privacidad
+.rectangle-parent91
 .study2 {
   margin: 0;
   height: 125px;
@@ -329,6 +329,17 @@
   width: 310px;
   height: 310px;
 }
+.cuadro-lenguaje{
+  position:absolute;
+  top: 20px;
+  left: 75px;
+  right: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xl);
+  background-color: var(--color-gray-300);
+  width: 310px;
+  height: 310px;
+}
 .frame-child108,
 .rectangle-wrapper1 {
   position: absolute;
@@ -541,6 +552,10 @@
   max-width: 100%;
   left: 285px;
   right: 95px;
+  padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-5xl);
 }
 .frame-wrapper17 {
   width: 443px;
@@ -548,7 +563,7 @@
 }
 .ciencias2 {
   height: 54.1px;
-  top: 100px;
+  top: 144px;
   position: relative;
   font-weight: 500;
   display: inline-block;
@@ -558,8 +573,8 @@
 }
 .rectangle-wrapper3 {
   position: absolute;
-  top: 305px;
-  left: -8px;
+  top: 350px;
+  left: -5px;
   border-radius: var(--br-mini);
   background-color: var(--color-lightsteelblue);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -570,7 +585,7 @@
 .ciencias-1-icon {
   position: absolute;
   height: 100%;
-  top: 0;
+  top: 35px;
   bottom: 0;
   left: 10px;
   max-height: 100%;
@@ -598,7 +613,7 @@
   height: 310px;
   position:absolute;
   margin: 0 !important;
-  top: -8px;
+  top: 38px;
   right: 300px;
   bottom: 0;
   left: 55px;
@@ -839,14 +854,7 @@
   }
   .lenguaje1,
   .matemtica,
-  .sociales2 {
-    font-size: var(--font-size-5xl);
-  }
-  .rectangle-parent91 {
-    padding-left: var(--padding-xl);
-    padding-right: var(--padding-xl);
-    box-sizing: border-box;
-  }
+  .sociales2 
   .ciencias2 {
     font-size: var(--font-size-5xl);
   }
@@ -1307,7 +1315,7 @@
   text-align: left;
   display: inline-block;
   z-index: 3;
-}
+} .frame-wrapper18
 .privacy-link,
 .rectangle-parent113 {
   display: flex;
@@ -1487,7 +1495,7 @@
     font-size: var(--font-size-5xl);
   }
 }
-@media screen and (max-width: 450px) {
+@media(max-width: 770px) {
   .menu {
     font-size: var(--font-size-6xl);
   }
@@ -1506,4 +1514,103 @@
   .study-upgrade1 {
     font-size: var(--font-size-lg);
   }
+}
+
+@media(max-width:770px) {
+  .rectangle-parent89{
+    width: 218px;
+    height: 227px;
+    left: -100px;
+  }
+  .matematicas-1-icon{
+    width: 215px;
+    height: 215px;
+    top: -4px;
+    top: 10px;
+    left: 1px;
+  }
+}
+@media(max-width:770px) {
+  .rectangle-wrapper1{
+    width: 215px;
+    height: 30.2px;
+    left: -100px;
+    top: 270px;
+  }
+}
+@media(max-width:770px) {
+.matemtica{
+  font-size: 25px;
+  left: -65px;
+  top: 265px;
+}
+}
+@media(max-width:770px) {
+.cuadro-lenguaje{
+  width: 218px;
+  height: 227px;
+  top: -340px;
+  left: 300px;
+}
+}
+@media(max-width:770px) {
+.libros-1-icon{
+  width: 215px;
+  height: 215px;
+  top: 6px;
+  left: 1px;
+}
+}
+@media(max-width:770px) {
+.rectangle-wrapper2{
+  width: 215px;
+  height: 30.2px;
+  top: -90px;
+  left: 305px;
+}
+}
+@media(max-width:770px) {
+  .lenguaje1{
+    font-size: 25px;
+    top: -97px;
+    left: 350px;
+  }
+}
+@media(max-width:770px) {
+  .frame-child114{
+    width: 218px;
+    height: 227px;
+    top: -490px;
+    left: 290px;
+  }
+}
+@media(max-width:770px) {
+  .ciencias-1-icon{
+    width: 215px;
+    height: 215px;
+    top: -501px;
+    left: 200px;
+  }
+}
+@media(max-width:770px) {
+  .rectangle-wrapper3{
+    width: 215px;
+    height: 30.2px;
+    top: -260px;
+    left: 200px;
+  }
+}
+@media(max-width:770px) {
+  .ciencias2{
+    font-size: 25px;
+    top: -470px;
+    left: 180px;
+  }
+}
+@media(max-width:770px) {
+  .rectangle-parent91{
+    width: 218px;
+    height: 227px;
+  }
+
 }
