@@ -136,7 +136,7 @@
 }
 .question {
   width: 5285px;
-  height: 2000px;
+  height: 2200px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: var(--br-6xl);
   background-color: var(--color-white);
@@ -231,19 +231,15 @@
   position: absolute;
   width: 400px;
   height: 500px;
-  top: 1000px;
+  top: 1050px;
   border-radius: 20px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .tabla{
   position: absolute;
   width: 500px;
-  top: 1100px;
+  top: 1380px;
   right: 70px;
   border-radius: 20px;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-}
-.aqui{
-  font-size: 30px;
-  font-weight: 500;
 }
