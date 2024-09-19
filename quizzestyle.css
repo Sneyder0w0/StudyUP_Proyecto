@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 100%;
+    background-color: #a3dee2;
+    transition: width 1s linear;
+}
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    height: 60vh;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    width: 100%;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    background-color: #78b5c3;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    align-content: space-around;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #a3dee2;
+}
+
+label:hover {
+    background-color: #a3dee2;
+    transform: translateY(-10px);
+}
+
+.icon-arrow-left11 {
+    position: absolute;
+    top: 214px;
+    left: 113px;
+    width: 60px;
+    height: 70.3px;
+    cursor: pointer;
+}
+
+#exitButton {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    padding: 0; /* Sin espacio interno */
+    cursor: pointer;
+    float: left;
+}
+
+#exitButton img {
+    width: 50px; /* Tamaño de la imagen */
+    height: 50px;
+}
+
+button {
+    background-color: #cbceda;
+    color: rgb(0, 0, 0);
+    width: 200px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    float: right;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    label {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

@@ -45,7 +45,7 @@
       <main class="main">
         <section class="quiz-grid">
           <div class="frame-parent3">
-            <div class="frame-wrapper3">
+            <div class="frame-wrapper3" id="q12">
               <div class="rectangle-parent10">
                 <div class="frame-child18"></div>
                 <div class="rectangle-parent11">
@@ -248,6 +248,14 @@
           window.location.href = "./pagina-de-inicio.html";
         });
       }
+
+      var q12 = document.getElementById("q12");
+if (q12) {
+  q12.addEventListener("click", function (e) {
+    window.location.href = "./quizz1.html";
+  });
+}
+
     </script>
   </body>
 </html>
